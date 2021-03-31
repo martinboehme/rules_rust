@@ -15,7 +15,7 @@
 # buildifier: disable=module-docstring
 load("//rust/private:common.bzl", "rust_common")
 load("//rust/private:rustc.bzl", "rustc_compile_action")
-load("//rust/private:utils.bzl", "crate_name_from_attr", "determine_output_hash", "expand_locations", "find_toolchain", "name_to_crate_name")
+load("//rust/private:utils.bzl", "crate_name_from_attr", "determine_output_hash", "expand_locations", "find_toolchain")
 
 # TODO(marco): Separate each rule into its own file.
 
