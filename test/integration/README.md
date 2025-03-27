@@ -6,5 +6,5 @@ To run the tests, change to the respective subdirectory, then run `bazel` from t
 
 ```sh
 cd test/integration/cc_common_link
-bazel test ...
+bazel test //...
 ```
